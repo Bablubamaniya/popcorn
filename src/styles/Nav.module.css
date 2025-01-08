@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+@media screen and (max-width : 800px) {
+    .nav {
+        flex-direction: column;
+        justify-content: start;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    
+}

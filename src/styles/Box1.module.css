@@ -1,0 +1,14 @@
+.box1 {
+    width: 50%;
+    max-height: calc(100vh - 15rem);
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+@media screen and (max-width: 800px) {
+    .box1 {
+        width: 100%;
+    }
+    
+}

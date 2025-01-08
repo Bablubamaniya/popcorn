@@ -1,0 +1,14 @@
+.box2 {
+    width: 50%;
+    max-height: calc(100vh - 15rem);
+    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    padding-right: 1rem;
+    scrollbar-width: thin;
+}
+@media screen and (max-width: 800px) {
+    .box2 {
+        width: 100%;
+    }
+    
+}
