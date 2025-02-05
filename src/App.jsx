@@ -3,6 +3,8 @@ import Main from "./components/Main";
 import Nav from "./components/Nav";
 import "./global.css";
 import "../src/app.css"
+import Box1 from "./components/Box1";
+import Box2 from "./components/Box2";
 
 const KEY = "64dfcd4b";
 const API_URL = `https://www.omdbapi.com/?apikey=${KEY}`;
@@ -117,18 +119,26 @@ function App() {
                 query={query}
                 resultCount={resultCount}
             />
-            <Main
+            <main>
+           
+            </main>
+            <Main>
+                 <Box1
                 movies={movies}
                 handleMovieCardClick={handleMovieCardClick}
-                movieDetails={movieDetails}
                 activeMovieID={activeMovieID}
-                handleCloseMovieDetails={handleCloseMovieDetails}
                 isLoadingMovies={isLoadingMovies}
+            />
+            <Box2
+                movieDetails={movieDetails}
+                handleCloseMovieDetails={handleCloseMovieDetails}
                 isLoadingMovieDetails={isLoadingMovieDetails}
                 handleAddMovieToWatchList={handleAddMovieToWatchList}
                 watchList={watchList}
                 handleRemoveMovieToWatchList={handleRemoveMovieToWatchList}
             />
+
+            </Main>
         </div>
     );
 }
