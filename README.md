@@ -11,11 +11,10 @@ and explore detailed information using the OMDB API. With an intuitive design po
 
 ##
 
-<img style="width:80%" src="./public/travel main page.jpg">
+<img style="width:80%" src="./public/popcorn.jpg">
 <br><br>
-<img style="width:80%" src="./public/loginPage.jpg">
+<img style="width:80%" src="./public/popcorn2.jpg">
 <br><br>
-<img style="width:80%" src="./public/cityPage.jpg">
 
 
 ##
