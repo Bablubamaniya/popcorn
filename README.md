@@ -1,7 +1,8 @@
 # React trevel Book
 
 <div align="center">
-<h4> React Travel Book helps travelers document their journeys by adding cities with experience notes. Featuring an interactive map powered by React Leaflet and OpenStreetMap, users can navigate, explore, and add cities directly on the map. Built with React, React Router v6, useReducer, and Context API, it offers a seamless way to capture travel experiences.</h4>
+<h4>Popcorn is a user-friendly movie search application, inspired by IMDB, where users can easily find any movie by its name
+and explore detailed information using the OMDB API. With an intuitive design powered by React.js.</h4>
 
 [![Repo Type](https://img.shields.io/badge/repo_type-Public-fcc419?style=flat&link=https://github.com/arpitjana21/SafarSathi-BookToursOnline)](https://github.com/arpitjana21/SafarSathi-BookToursOnline)
 ![version](https://img.shields.io/badge/npm-v9.5.0-red)
@@ -52,11 +53,9 @@ npm run dev
 
 #### User and Admin Management:
 
-1. Users can browse a list of cities using React-Router data-loading.
-2. Add City-Form  functionality is implemented with leaflet Map.
-3. city can be add or delete in the city list.
-4. Orders can be searched by their ID using React-Router v6.
-5. Tailwind CSS is used to create a modern and responsive design.
+1. Quickly search for movies by their name and view detailed information.
+2. Share your opinion by rating the movies you love or dislike.
+3. Organize your favorite movies by adding them to a personalized watchlist.
 
 ## Contact Me
 
